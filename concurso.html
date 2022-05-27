@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IronMan 2 - Concurso</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo_concurso.css">
+</head>
+<body>
+	<!-- comentario: los ID se fueron y se convierten en etiquetas
+		sacandoles los ID porque son etiquetas unicas-->
+	<main>
+		<header>
+			<a href="index.html"><img src="img/logo_ironman2.png">
+		<nav>
+			<ul>
+        <li><a href="sinopsis.html"> SINOPSIS</a></li>
+        <li><a href="personajes.html"> PERSONAJES</a></li>
+        <li><a href="concurso.html"> CONCURSO</a></li>
+    </ul>
+		</nav>
+		</header>
+	   
+	    <section>
+	    	<article id="article1">
+
+<h1>Ganate 2 entradas!!</h1>
+<h2>Llená el formulario y participá</h2>
+
+	    	    <!--FORMULARIO.-->
+
+<form method="post" action="mailto:correo@mail.com">
+	<label>Nombre / Apellido</label><br>
+	<input type="text" name="nombre" required  class="cajas"><br> <!-- este ejemplo tiene el campo Requerido y el ejemplo de class CAJAS .-->
+
+    <label>Email</label><br>
+	<input type="email" name="correo" required class="cajas"><br>
+
+	<label>Teléfono</label><br>
+	<input type="text" name="telefono" required class="cajas"><br>
+
+	<label>¿Cuál es tu personaje favorito?</label><br>
+    <select>
+	<option>---- Elige Aquí ----</option>
+	<option>Tony Stark (Ironman)</option>
+	<option>Ivan Vanko</option>
+    <option>Pepper Potts</option>
+    <option>Col. James Rhode</option>
+    <option>Natalie Rushman</option>
+    <option>Justin Hammer</option>
+    </select><br>
+
+    <label>Dejanos tus comentarios</label><br>
+    <textarea rows="5" cols="10" name="comentario" class="cajas"></textarea><br>
+<br>
+
+	<input type="submit" name="enviar" value="Concursar" class="btn"><br>
+	
+	
+</form>
+	    	</article>
+	    	
+	    	<article id="article2">
+                <img src="img/img_concurso.jpg">
+	    	</article>
+	    </section> 
+        
+        <footer>
+        	<div class="box">
+            <a href="#" class="marvel"><img src="img/marvel.png"></a>
+            <a href="#" class="uces"><img src="img/uces.png"></a>
+        	</div>
+
+            <div class="box">
+            <h3>CLAUDIO ROJAS</h3>
+        	</div>
+
+        	 <div class="box">
+            <a href="#" class="insta"><img src="img/instagram.png"></a>
+            <a href="#" class="fb"><img src="img/facebook.png"></a>
+        	</div>
+        </footer>
+	</main>
+
+</body>
+</html>
